@@ -20,8 +20,8 @@ This part of a program asks what kind of files a user wants to move. After the u
 If the user passed 'y' in the above part, program iterates on 'FilesToBeMoved' list and move all the files to destination folder. The moved files will be displayed.
 
 # Technical Notes
-The script was written on **Python 3.9.5** using **shutil** and **os** modules. 
-The code was tested on **Windows 10** Home, version **21H1**, build 19043.1083. 
+The script was written on **Python 3.9.5** using **shutil** and **os** modules.  
+The code was tested on **Windows 10** Home, version **21H1**, build 19043.1083.   
 The code was **NOT** tested on Linux/Mac operating systems, so the feedback from users on those platforms would be appreciated. 
 
 ## Contributing
