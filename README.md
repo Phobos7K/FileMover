@@ -5,12 +5,12 @@ Suppose a user has many files of a specific extension but he or she does not hav
 # Structure of the Project
 
 ## Variables
-There are seven variables described below...
-"**source**" - the source folder where the files at. (SOME_DISK:/some_folder/srcFolder/)
-"**dest**" - the destination folder where files will be moved to. (SOME_DISK:/some_folder/destFolder/)
-"**counter**" - displays how many files were in the source folder based on 'ext' value.
-"**FilesToBeMoved**" - an empty list where we put the files that will be moved to new location.
-"**MostUsedExtensions**" - a tuple with most used extensions based on Windows OS.
+There are seven variables described below...__
+"**source**" - the source folder where the files at. (SOME_DISK:/some_folder/srcFolder/)__
+"**dest**" - the destination folder where files will be moved to. (SOME_DISK:/some_folder/destFolder/)__
+"**counter**" - displays how many files were in the source folder based on 'ext' value.__
+"**FilesToBeMoved**" - an empty list where we put the files that will be moved to new location.__
+"**MostUsedExtensions**" - a tuple with most used extensions based on Windows OS.__
 "**ext**" - an extension user passes to move specific files from MostUsedExtensions tuple, i.e. jpg, csv, pdf, etc.  
 
 ## The "ext" block
